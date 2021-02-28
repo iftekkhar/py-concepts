@@ -11,7 +11,7 @@
 
 ### Declaration/ Initialization
 
-```
+``` python
 # Remember values, not variables, have data types.
 # A variable can be reassigned to contain a different data type.
 answer = 42
@@ -20,7 +20,7 @@ answer = "The answer is 42."
 
 ### Data Types
 
-```
+``` python
 boolean = True
 number = 1.1
 string = "Strings can be declared with single or double quotes."
@@ -32,13 +32,13 @@ variable_with_zero_data = None
 
 ### Simple Logging
 
-```
+``` python
 print "Printed!"
 ```
 
 ### Conditionals
 
-```
+``` python
 if cake == "delicious":
     return "Yes please!"
 elif cake == "okay":
@@ -49,7 +49,7 @@ else:
 
 ### Loops
 
-```
+``` python
 # For Loops
 for item in list:
     print item
@@ -62,7 +62,7 @@ while (total < max_val):
 
 ### Functions
 
-```
+``` python
 def divide(dividend, divisor):
     quotient = dividend / divisor
     remainder = dividend % divisor
@@ -75,7 +75,7 @@ def calculate_stuff(x, y):
 
 ### Classes
 
-```
+``` python
 class Person(object):
     def __init__(self, name, age):
         self.name = name
