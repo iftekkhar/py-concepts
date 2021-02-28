@@ -39,7 +39,7 @@ answer = "The answer is 42."
 ### Simple Logging
 
 ``` python
-1. print "Printed!"
+1. print ("Printed!")
 
 2. f.write()
 ```
@@ -64,6 +64,7 @@ else:
 for item in list:
     print item
 
+
 # While Loops
 while (total < max_val):
     total += values[i]
@@ -78,6 +79,7 @@ def divide(dividend, divisor):
     quotient = dividend / divisor
     remainder = dividend % divisor
     return quotient, remainder
+
 
 def calculate_stuff(x, y):
     (q, r) = divide(x,y)
@@ -113,7 +115,11 @@ class Person(object):
 5. in :  (x in dict / list) # returns boolean, checks if 'x' exists in a the dict or list.
 
 6. dict.get(): #which returns the value or None if the key is not present (or get(key, not-found) allows you to specify what value to return in the not-found case).
+
+7. int(elem) : converts to integer
 ```
+
+
 [More about Sort & Sorted](https://developers.google.com/edu/python/sorting)
 
 #### String Methods
@@ -180,4 +186,5 @@ class Person(object):
 
 ### Time & Space Complexities
 
-[BigO](https://www.bigocheatsheet.com/).
+[Python Methods BigO](https://wiki.python.org/moin/TimeComplexity).
+[General DS & Algo BigO ](https://www.bigocheatsheet.com/).
